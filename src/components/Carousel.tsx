@@ -17,16 +17,18 @@ export default function Carousel() {
   }, [images.length]);
 
   return (
-    <section className={`w-full flex justify-center items-center p-1 bg-yellow-100 
-    sm:p-5`}>
+    <section
+      className={`w-full flex justify-center items-center p-1 bg-yellow-100 
+    sm:p-5`}
+    >
       <img
         src={images[index]}
         alt="Imagens de casas"
         className="sm:w-5/6 sm:h-[30rem] rounded-2xl relative"
       />
 
-      <div className="absolute text-lg sm:text-xl md:text-2xl ladivtop:text-3xl font-mono text-yellow-950">
-      <TextWrite text={"Aqui seus sonhos ganham um novo lar!"} />
+      <div className="absolute flex justify-center sm:text-xl md:text-2xl ladivtop:text-3xl font-mono text-yellow-950">
+        <TextWrite text={"Aqui seus sonhos ganham um novo lar!"} />
       </div>
     </section>
   );

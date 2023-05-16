@@ -19,5 +19,5 @@ export default function TextWrite({ text }: Props) {
     return () => clearTimeout(interval);
   }, [charIndex, text]);
 
-  return <h1>{displayText}</h1>;
+  return <h1 className="flex justify-center">{displayText}</h1>;
 }

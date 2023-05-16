@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
-
 import logo from "../assets/logop11.jpeg";
-import SocialMedia from "./SocialMedia";
+
 
 export default function Header() {
   return (
@@ -16,8 +15,6 @@ export default function Header() {
           className="w-16 rounded-full"
         />
       </div>
-
-      <SocialMedia />
 
       <nav className="flex gap-6 font-serif text-lg font-semibold">
         <Link to="/">Inicio</Link>
