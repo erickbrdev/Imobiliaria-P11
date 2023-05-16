@@ -5,7 +5,6 @@ import Card from "./Card";
 import { IProperty } from "../interfaces/Property";
 
 import { v4 } from "uuid";
-import Loading from "./Loading";
 import LoaderFilter from "./LoaderFilter";
 
 export default function FilterType() {
