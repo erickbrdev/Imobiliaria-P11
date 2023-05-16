@@ -9,7 +9,7 @@ export default function Card(props: IProperty) {
 
   return (
     <Link to={`/imoveis/${id}`}>
-      <div className="card w-80 h-[47.5rem]">
+      <div className="card w-[20rem] h-[47.5rem]">
         <div className="card-img">
           <img src={mainImg} alt={type} className="h-80 w-full" />
         </div>

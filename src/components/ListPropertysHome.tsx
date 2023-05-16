@@ -12,8 +12,8 @@ export default function ListPropertysHome() {
         Imoveis para você!
       </h1>
 
-      <div className="flex flex-wrap justify-center gap-5 pt-3">
-        {imoveis.slice(0, 6).map((item: IProperty | any) => {
+      <div className="flex flex-wrap justify-evenly gap-3 pt-3">
+        {imoveis.slice(0, 8).map((item: IProperty | any) => {
           return (
             <Card
               key={v4()}

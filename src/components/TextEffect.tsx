@@ -19,5 +19,9 @@ export default function TextWrite({ text }: Props) {
     return () => clearTimeout(interval);
   }, [charIndex, text]);
 
-  return <h1 className="flex justify-center">{displayText}</h1>;
+  return (
+    <h1 className="flex text-yellow-950 py-1 px-2 rounded-lg opacity-90">
+      {displayText}
+    </h1>
+  );
 }

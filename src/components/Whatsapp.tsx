@@ -11,7 +11,7 @@ export default function Whatsapp() {
           color="green"
           weight="fill"
           className="bg-green-50 rounded-full opacity-80"
-          style={{ height: "40px", width: "40px" }}
+          style={{ height: "45px", width: "45px" }}
         />
       </a>
     </div>
