@@ -13,7 +13,7 @@ export default function Footer() {
       </p>
       <SocialMedia />
       <p className="text-sm sm:text-lg">
-        {`Todos os direitos reservados  Próspero 11 Imoveis © ${data}`}
+        {`Todos os direitos reservados  Próspero11 Imoveis © ${data}`}
       </p>
     </footer>
   );

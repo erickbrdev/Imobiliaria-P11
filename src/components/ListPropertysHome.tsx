@@ -9,7 +9,7 @@ export default function ListPropertysHome() {
   return (
     <section className="flex flex-col items-center justify-center p-3 bg-yellow-200">
       <h1 className="text-xl font-mono font-bold border-b-2 border-yellow-400 w-72 text-center">
-        Imoveis para você!
+        Imóveis para você!
       </h1>
 
       <div className="flex flex-wrap justify-evenly gap-3 pt-3">

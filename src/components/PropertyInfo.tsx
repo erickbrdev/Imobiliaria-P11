@@ -39,10 +39,10 @@ export default function PropertyInfo() {
             <div className="flex gap-24 p-3 items-center justify-center">
               <div className="flex flex-col gap-2">
                 <p className="font-mono font-bold text-xl">
-                  {findProperty.state}
+                {findProperty.city} - {findProperty.state}
                 </p>
                 <p className="font-mono font-bold text-lg">
-                  {findProperty.city} - {findProperty.place}
+                 {findProperty.place}
                 </p>
                 <p>
                   {findProperty.description.split(",").map((item) => {
