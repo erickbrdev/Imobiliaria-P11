@@ -53,7 +53,7 @@ export default function PropertyInfo() {
                     );
                   })}
                 </p>
-                <p className="font-mono font-bold text-gl">
+                <p className="font-mono font-bold text-lg">
                   Investimento: R${findProperty.price}
                 </p>
               </div>

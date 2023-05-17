@@ -9,18 +9,18 @@ export default function Card(props: IProperty) {
 
   return (
     <Link to={`/imoveis/${id}`}>
-      <div className="card w-[20rem] h-[47.5rem]">
+      <div className="card w-[20rem] h-[47rem]">
         <div className="card-img">
           <img src={mainImg} alt={type} className="h-80 w-full" />
         </div>
         <div className="card-info">
-          <p className="text-title text-xl font-mono">{state}</p>
-          <p className="text-body text-lg font-mono">{`${city} - ${place}`}</p>
+          <p className="text-title text-xl font-mono">{city} - {state}</p>
+          <p className="text-body text-lg font-mono">{place}</p>
           <p className="text-body text-lg font-mono">{type}</p>
           <p className="h-52 overflow-auto font-serif text-lg">{description}</p>
         </div>
         <div className="card-footer">
-          <span className="text-title flex flex-col justify-end">{`R$${price}`}</span>
+          <span className="text-title mt-3">{`R$${price}`}</span>
           <div className="card-button">
             <House color="#000" weight="fill" size={25}/>
           </div>

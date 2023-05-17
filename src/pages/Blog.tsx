@@ -17,7 +17,7 @@ export default function Blog() {
         </div>
         <div className="flex-1 flex flex-col gap-5 font-serif font-semibold">
           <div className="flex flex-col justify-center items-center gap-3">
-            <h1 className="font-mono border-b-2 border-yellow-400  sm:w-[28rem] text-center">
+            <h1 className="font-mono border-b-2 border-yellow-400  sm:w-[28rem] text-center text-lg xl:text-xl">
               Como é a sua rotina?
             </h1>
             <p>
@@ -32,7 +32,7 @@ export default function Blog() {
             </p>
           </div>
           <div className="flex flex-col justify-center items-center gap-3">
-            <h1 className="font-mono border-b-2 border-yellow-400  sm:w-[28rem] text-center">
+            <h1 className="font-mono border-b-2 border-yellow-400  sm:w-[28rem] text-center text-lg lg:text-xl">
               Seu estilo de vida?
             </h1>
             <p>
@@ -46,7 +46,7 @@ export default function Blog() {
             </p>
           </div>
           <div className="flex flex-col justify-center items-center gap-3">
-            <h1 className="font-mono border-b-2 border-yellow-400 sm:w-[28rem] text-center">
+            <h1 className="font-mono border-b-2 border-yellow-400 sm:w-[28rem] text-center text-lg lg:text-xl">
               Segurança é muito importante!
             </h1>
             <p>
@@ -57,7 +57,7 @@ export default function Blog() {
             </p>
           </div>
           <div className="flex flex-col justify-center items-center gap-3">
-            <h1 className="font-mono border-b-2 border-yellow-400 sm:w-[28rem] text-center">
+            <h1 className="font-mono border-b-2 border-yellow-400 sm:w-[28rem] text-center text-lg lg:text-xl">
               Trace seu perfil e suas expectativas!
             </h1>
             <p>
@@ -69,7 +69,7 @@ export default function Blog() {
             </p>
           </div>
           <div className="flex flex-col justify-center items-center gap-2">
-            <h1 className="font-mono border-b-2 border-yellow-400 sm:w-[28rem] text-center">
+            <h1 className="font-mono border-b-2 border-yellow-400 sm:w-[28rem] text-center text-lg lg:text-xl">
               Não deixe de lado o lazer e a vida social
             </h1>
             <p>

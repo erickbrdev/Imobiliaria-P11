@@ -4,7 +4,7 @@ import { IProperty } from "../interfaces/Property";
 export const imoveis: IProperty[] = [
   {
     id: v4(),
-    state: "Rio de Janeiro",
+    state: "RJ",
     city: "Araruama",
     place: "Pontinha",
     description:
@@ -23,7 +23,7 @@ export const imoveis: IProperty[] = [
   } /* _______________________________________________________________ */,
   {
     id: v4(),
-    state: "Rio de Janeiro",
+    state: "RJ",
     city: "Araruama",
     place: "Parque Hotel",
     description:
@@ -43,7 +43,7 @@ export const imoveis: IProperty[] = [
   } /* _______________________________________________________________ */,
   {
     id: v4(),
-    state: "Rio de Janeiro",
+    state: "RJ",
     city: "Araruama",
     place: "Centro",
     description:
@@ -62,7 +62,7 @@ export const imoveis: IProperty[] = [
   } /* _______________________________________________________________ */,
   {
     id: v4(),
-    state: "Rio de Janeiro",
+    state: "RJ",
     city: "Araruama",
     place: "Estrada de São Vicente",
     description:
@@ -82,7 +82,7 @@ export const imoveis: IProperty[] = [
   } /* _______________________________________________________________ */,
   {
     id: v4(),
-    state: "Rio de Janeiro",
+    state: "RJ",
     city: "Araruama",
     place: "XV de Novembro",
     description:
@@ -101,7 +101,7 @@ export const imoveis: IProperty[] = [
   } /* _______________________________________________________________ */,
   {
     id: v4(),
-    state: "Rio de Janeiro",
+    state: "RJ",
     city: "Araruama",
     place: "Parque Mataruna",
     description:
@@ -119,7 +119,7 @@ export const imoveis: IProperty[] = [
   } /* _______________________________________________________________ */,
   {
     id: v4(),
-    state: "Rio de Janeiro",
+    state: "RJ",
     city: "Araruama",
     place: "Centro",
     description: "Área com 1780m²,  próximo ao hospital HC Lagos",
@@ -136,7 +136,7 @@ export const imoveis: IProperty[] = [
   } /* _______________________________________________________________ */,
   {
     id: v4(),
-    state: "Rio de Janeiro",
+    state: "RJ",
     city: "Araruama",
     place: "Estrada de São Vicente",
     description:
@@ -159,7 +159,7 @@ export const imoveis: IProperty[] = [
   } /* _______________________________________________________________ */,
   {
     id: v4(),
-    state: "Rio de Janeiro",
+    state: "RJ",
     city: "Araruama",
     place: "Vila Capri",
     description:
@@ -180,7 +180,7 @@ export const imoveis: IProperty[] = [
   } /* _______________________________________________________________ */,
   {
     id: v4(),
-    state: "Rio de Janeiro",
+    state: "RJ",
     city: "Araruama",
     place: "Rio do Limão",
     description:
@@ -204,7 +204,7 @@ export const imoveis: IProperty[] = [
   } /* _______________________________________________________________ */,
   {
     id: v4(),
-    state: "Rio de Janeiro",
+    state: "RJ",
     city: "Araruama",
     place: "Coqueiral",
     description:
@@ -225,7 +225,7 @@ export const imoveis: IProperty[] = [
   } /* _______________________________________________________________ */,
   {
     id: v4(),
-    state: "Rio de Janeiro",
+    state: "RJ",
     city: "Bacaxa / Saquarema",
     place: "Rio da Areia ",
     description: "Loteamento Abraão, Terreno 15x30, Legalizado  ",
@@ -242,7 +242,7 @@ export const imoveis: IProperty[] = [
   } /* _______________________________________________________________ */,
   {
     id: v4(),
-    state: "Rio de Janeiro",
+    state: "RJ",
     city: "Araruama",
     place: "Centro",
     description:
