@@ -38,7 +38,7 @@ export const imoveis: IProperty[] = [
       "https://i.postimg.cc/4N7cV54S/Whats-App-Image-2023-02-17-at-18-03-47-1.jpg",
       "https://i.postimg.cc/gcKS1GvW/Whats-App-Image-2023-02-17-at-18-03-48.jpg",
     ],
-    type: "Condominio",
+    type: "Apartamento",
     price: "530.000.00",
   } /* _______________________________________________________________ */,
   {
@@ -57,7 +57,7 @@ export const imoveis: IProperty[] = [
       "https://i.postimg.cc/FKNCQ1rg/Whats-App-Image-2023-02-17-at-18-05-42.jpg",
       "https://i.postimg.cc/VsVhbYgm/Whats-App-Image-2023-02-17-at-18-05-42-1.jpg",
     ],
-    type: "Condominio",
+    type: "Apartamento",
     price: "385.000.00",
   } /* _______________________________________________________________ */,
   {
@@ -175,7 +175,7 @@ export const imoveis: IProperty[] = [
       "https://i.postimg.cc/rFn56xb0/Whats-App-Image-2023-02-17-at-19-02-39-1.jpg ",
       "https://i.postimg.cc/mkVCgHgn/Whats-App-Image-2023-02-17-at-19-02-40.jpg",
     ],
-    type: "Condominio",
+    type: "Apartamento",
     price: "140.000.00",
   } /* _______________________________________________________________ */,
   {
@@ -260,5 +260,68 @@ export const imoveis: IProperty[] = [
     ],
     type: "Casa",
     price: "700.000,00",
+  } /* _______________________________________________________________ */,
+  {
+    id: v4(),
+    state: "RJ",
+    city: "Araruama",
+    place: "Areal",
+    description:
+      "Próximo a lagoa, 505.19m², 15m de frente, 35m de fundo, 100% Legalizado.",
+    mainImg:
+      " https://i.postimg.cc/7ZdXgyVP/Whats-App-Image-2023-05-17-at-09-55-36.jpg",
+    images: [
+      "https://i.postimg.cc/Pr6S5Dvw/Whats-App-Image-2023-05-17-at-09-55-36-1.jpg",
+      "https://i.postimg.cc/7ZdXgyVP/Whats-App-Image-2023-05-17-at-09-55-36.jpg",
+    ],
+    type: "Terreno",
+    price: "150.000,00",
+  } /* _______________________________________________________________ */,
+  {
+    id: v4(),
+    state: "RJ",
+    city: "Araruama",
+    place: "Educandário",
+    description: "495m², 100% Legalizado, Terreno todo murado",
+    mainImg:
+      "https://i.postimg.cc/yxhp6r4h/Whats-App-Image-2023-05-17-at-10-06-49.jpg",
+    images: [
+      "https://i.postimg.cc/yxhp6r4h/Whats-App-Image-2023-05-17-at-10-06-49.jpg",
+    ],
+    type: "Terreno",
+    price: "110.000,00",
+  } /* _______________________________________________________________ */,
+  {
+    id: v4(),
+    state: "RJ",
+    city: "Araruama",
+    place: "Estrada de São Vicente",
+    description:
+      "Edícula em condomínio fechado com segurança 24h, Área comum com piscina, Terreno 318m², Não aceita financiamento.",
+    mainImg:
+      "https://i.postimg.cc/Jz37VR2t/Whats-App-Image-2023-05-17-at-10-19-46.jpg",
+    images: [
+      "https://i.postimg.cc/Wb301Hv2/Whats-App-Image-2023-05-17-at-10-29-41.jpg",
+      "https://i.postimg.cc/dtyt62R2/Whats-App-Image-2023-05-17-at-10-19-46-1.jpg",
+      "https://i.postimg.cc/Jz37VR2t/Whats-App-Image-2023-05-17-at-10-19-46.jpg",
+    ],
+    type: "Condominio",
+    price: "150.000,00",
+  } /* _______________________________________________________________ */,
+  {
+    id: v4(),
+    state: "RJ",
+    city: "Araruama",
+    place: "São Vicente de Paula",
+    description:
+      "425m², 100% Legalizado, Condomínio e IPTU em dia, Condomínio R$ 90.00.",
+    mainImg:
+      "https://i.postimg.cc/NjZqLS2m/Whats-App-Image-2023-05-17-at-10-00-51.jpg",
+    images: [
+      "https://i.postimg.cc/qMLvhJpn/Whats-App-Image-2023-05-17-at-10-00-28.jpg",
+      "https://i.postimg.cc/NjZqLS2m/Whats-App-Image-2023-05-17-at-10-00-51.jpg",
+    ],
+    type: "Terreno",
+    price: "35.000,00",
   } /* _______________________________________________________________ */,
 ];

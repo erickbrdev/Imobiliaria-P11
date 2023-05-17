@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 export default function ListPropertysHome() {
   return (
     <section className="flex flex-col items-center justify-center p-3 bg-yellow-200">
-      <h1 className="text-xl font-mono font-bold border-b-2 border-yellow-400 w-72 text-center">
+      <h1 className="text-xl font-serif font-bold border-b-2 border-yellow-400 w-72 text-center">
         Imóveis para você!
       </h1>
 

@@ -43,7 +43,7 @@ export default function Form() {
       <Whatsapp/>
       <Header />
       <section className="h-screen flex flex-col items-center justify-center bg-yellow-100">
-        <h1 className="text-2xl border-b-2 border-yellow-900 mb-5 font-mono">
+        <h1 className="text-2xl border-b-2 border-yellow-900 mb-5 font-serif">
           Envie sua mensagem!
         </h1>
         <form

@@ -33,7 +33,7 @@ export default function FilterType() {
             <option value="Condominio">Condominio</option>
             <option value="Terreno">Terreno</option>
             <option value="Apartamento">Apartamento</option>
-            <option value="Predio">Predio</option>
+            <option value="Sala Comercial">Sala Comercial</option>
           </select>
         </div>
 
@@ -41,7 +41,7 @@ export default function FilterType() {
           {filterPropertyByType === undefined ||
           filterPropertyByType.length === 0 ? <div className="gap-5 flex h-screen items-center flex-col justify-center">
             <LoaderFilter /> 
-            <p className="text-xl font-mono font-black">Não temos {filterByType.toLowerCase()} disponivel no momento! </p> 
+            <p className="text-xl font-serif font-black">Não temos {filterByType.toLowerCase()} disponivel no momento! </p> 
           </div>: (
             filterPropertyByType.map((item: IProperty | any) => {
               return (

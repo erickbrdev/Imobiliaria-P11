@@ -27,7 +27,7 @@ export default function Carousel() {
         className="sm:w-5/6 sm:h-[30rem] rounded-2xl relative"
       />
 
-      <div className="absolute flex justify-center text-sm sm:text-xl md:text-2xl ladivtop:text-3xl font-mono text-yellow-950">
+      <div className="absolute flex justify-center text-sm sm:text-xl md:text-2xl ladivtop:text-3xl font-serif text-yellow-950">
         <TextWrite text={"Aqui seus sonhos ganham um novo lar!"} />
       </div>
     </section>

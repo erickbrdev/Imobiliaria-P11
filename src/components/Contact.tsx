@@ -38,7 +38,7 @@ export default function Contact() {
       </nav>
 
       <div>
-        <p className="text-lg font-mono font-black sm:w-[40rem]">
+        <p className="text-lg font-serif font-black sm:w-[40rem]">
           Não perca mais tempo, venha para a nossa imobiliária e realize o sonho
           da casa própria agora mesmo!
         </p>

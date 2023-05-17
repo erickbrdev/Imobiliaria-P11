@@ -14,9 +14,9 @@ export default function Card(props: IProperty) {
           <img src={mainImg} alt={type} className="h-80 w-full" />
         </div>
         <div className="card-info">
-          <p className="text-title text-xl font-mono">{city} - {state}</p>
-          <p className="text-body text-lg font-mono">{place}</p>
-          <p className="text-body text-lg font-mono">{type}</p>
+          <p className="text-title text-xl font-serif">{city} - {state}</p>
+          <p className="text-body text-lg font-serif">{place}</p>
+          <p className="text-body text-lg font-serif">{type}</p>
           <p className="h-52 overflow-auto font-serif text-lg">{description}</p>
         </div>
         <div className="card-footer">

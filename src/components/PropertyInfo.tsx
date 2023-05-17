@@ -38,10 +38,10 @@ export default function PropertyInfo() {
 
             <div className="flex gap-24 p-3 items-center justify-center">
               <div className="flex flex-col gap-2">
-                <p className="font-mono font-bold text-xl">
+                <p className="font-serif font-bold text-xl">
                 {findProperty.city} - {findProperty.state}
                 </p>
-                <p className="font-mono font-bold text-lg">
+                <p className="font-serif font-bold text-lg">
                  {findProperty.place}
                 </p>
                 <p>
@@ -53,7 +53,7 @@ export default function PropertyInfo() {
                     );
                   })}
                 </p>
-                <p className="font-mono font-bold text-lg">
+                <p className="font-serif font-bold text-lg">
                   Investimento: R${findProperty.price}
                 </p>
               </div>
